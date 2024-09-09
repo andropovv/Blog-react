@@ -1,5 +1,22 @@
+.Button {
+  cursor: pointer;
+}
+
 .clear {
   border: none;
   background: none;
   outline: none;
+}
+
+.default {
+  background: var(--primary-color);
+  color: var(--inverted-primary-color);
+  padding: 3px 6px;
+  border-radius: 3px;
+  border: none;
+
+  &:hover {
+    background: var(--secondary-color);
+    color: var(--inverted-secondary-color);
+  }
 }
