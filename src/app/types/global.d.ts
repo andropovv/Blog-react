@@ -1,10 +1,8 @@
-declare module "*.scss" {
-  interface IClassNames {
-    [className: string]: string;
-  }
-  const classNames: IClassNames;
-  export default classNames;
+declare module "*.module.scss" {
+  const value: Record<string, string>;
+  export default value;
 }
+declare module "*.scss";
 
 declare module "*.png";
 declare module "*.jpg";
