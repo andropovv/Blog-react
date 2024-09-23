@@ -19,7 +19,7 @@
   margin: 8px;
   border: 8px solid var(--primary-color);
   border-radius: 50%;
-  animation: Loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  animation: loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   border-color: currentcolor transparent transparent;
 }
 
@@ -35,7 +35,7 @@
   animation-delay: -0.15s;
 }
 
-@keyframes Loader {
+@keyframes loader {
   0% {
     transform: rotate(0deg);
   }
